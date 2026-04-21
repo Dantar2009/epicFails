@@ -17,9 +17,9 @@ export default function MessageInput(){
             <div style={{
                 width:isMobile?"95%":"40%",
                 display: "flex",
-                flexDirection: "row",
+                flexDirection: isMobile?"column": "row",
                 justifyContent: "center",
-                alignItems: "center",
+                alignItems: isMobile?"flex-end":"center",
                 padding: "50px 0",
                 gap: 15,
                 boxSizing: "border-box",
